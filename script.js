@@ -22,11 +22,12 @@ emailInput.addEventListener("input", () => {
     emailValidation();
 });
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", (e) => {
     if (emailInput.value == null) {
         emailErrorMessage.style.visibility = "visible";
         emailErrorSign.style.visibility = "visible";
     } else {
         emailValidation();
     }
+    e.preventDefault();
 });
