@@ -1,0 +1,113 @@
+/*
+Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+}
+body .hero__wrapper {
+  padding-inline-start: 10.3rem;
+  background-image: url("images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body .hero__wrapper .hero___section__left .hero__header {
+  padding-top: 3.9rem;
+}
+body .hero__wrapper .hero___section__left .hero__title {
+  text-transform: uppercase;
+  padding-top: 8.2rem;
+  font-size: 4.2rem;
+  font-weight: 600;
+  max-width: 300px;
+  letter-spacing: 0.9rem;
+  line-height: 1.01;
+  color: hsl(0, 6%, 24%);
+}
+body .hero__wrapper .hero___section__left .hero__title span {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+body .hero__wrapper .hero___section__left .hero__desciption {
+  padding-top: 1.4rem;
+  font-size: 1rem;
+  letter-spacing: 0.005rem;
+  line-height: 1.7;
+  max-width: 450px;
+  color: hsl(0, 36%, 70%);
+}
+body .hero__wrapper .hero___section__left .hero__form {
+  padding-top: 2.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+body .hero__wrapper .hero___section__left .hero__form .hero__form__input {
+  padding-block: 1.2rem;
+  padding-inline-start: 2.1rem;
+  border-radius: 30px;
+  width: 85%;
+  border: 1px solid hsl(0, 36%, 70%);
+}
+body .hero__wrapper .hero___section__left .hero__form .hero__form__error {
+  position: absolute;
+  bottom: -1.7rem;
+  left: 2.1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: hsl(0, 93%, 68%);
+}
+body .hero__wrapper .hero___section__left .hero__form .hero__form__error__image {
+  position: absolute;
+  right: 7.5rem;
+  width: 1.3rem;
+}
+body .hero__wrapper .hero___section__left .hero__form ::-moz-placeholder {
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+}
+body .hero__wrapper .hero___section__left .hero__form ::placeholder {
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+}
+body .hero__wrapper .hero___section__left .hero__form .hero__form__button {
+  background: linear-gradient(135deg, hsl(0, 36%, 70%) 45%, hsl(0, 93%, 68%));
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  width: 100px;
+  margin-left: -2.3rem;
+  border-radius: 30px;
+  box-shadow: 0 5px 20px 0 hsl(0, 36%, 70%);
+  cursor: pointer;
+}
+body .hero__wrapper .hero___section__right .hero__section__desktop {
+  height: auto;
+}
+body .attribution {
+  font-size: 11px;
+  font-family: "Calibri";
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  font-weight: 600;
+}/*# sourceMappingURL=styles.css.map */
