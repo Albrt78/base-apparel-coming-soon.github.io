@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Base Apparel Coming Soon Page](./screenshot.jpg)
+![Base Apparel Coming Soon Page](./Apparel_coming_soon_page_screenshot.png)
 
 ### Links
 
