@@ -13,6 +13,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## Overview
 
+Frontend Mentor is an online platform that provides challenges for web developers to improve their skills by building realistic projects. These challenges typically involve creating frontend designs based on provided designs or specifications.
+
 ### The challenge
 
 Users should be able to:
@@ -25,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Base Apparel Coming Soon Page](./screenshot.jpg)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Base Apparel Coming Soon Page](https://github.com/Albrt78/base-apparel-coming-soon.github.io)
+-   Live Site URL: [Base Apparel Coming Soon Page](https://your-live-site-url.com)
 
 ### Built with
 
@@ -38,7 +40,7 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 -   CSS Grid
--   [SASS](https://reactjs.org/) - CSS Preprocessor
+-   [SASS](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sass-lang.com/&ved=2ahUKEwimuOHJ7OmEAxWIxzgGHc7BD64QFnoECAcQAQ&usg=AOvVaw0p_IRgLEbIPRGWtlW7Wph8) - CSS Preprocessor
 
 ## Author
 
