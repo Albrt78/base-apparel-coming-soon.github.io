@@ -23,12 +23,12 @@
         <title>Frontend Mentor | Base Apparel coming soon page</title>
     </head>
     <body>
-        <header class="header__wrapper">
-            <img src="images/logo.svg" alt="" class="header__logo" />
-        </header>
-
         <main class="hero__wrapper">
             <section class="hero___section__left">
+                <section class="hero__logo" role="heading">
+                    <img src="images/logo.svg" alt="" />
+                </section>
+
                 <h1 class="hero__title"><span>We're </span>coming soon</h1>
 
                 <p class="hero__desciption">
@@ -59,34 +59,31 @@
                 </form>
             </section>
 
-            <section class="hero___section__right">
-                <picture>
-                    <source
-                        srcset="images/hero-mobile.jpg"
-                        media="(max-width: 375.98px)"
-                    />
-                    <img
-                        src="images/hero-desktop.jpg"
-                        alt=""
-                        class="hero__section__desktop"
-                    />
-                </picture>
-            </section>
+            <picture>
+                <source
+                    srcset="images/hero-mobile.jpg"
+                    media="(max-width: 768.98px)"
+                    class="hero__image__reponsive"
+                />
+                <img src="images/hero-desktop.jpg" alt="" class="hero__image" />
+            </picture>
         </main>
 
-        <p class="attribution">
-            Challenge by
-            <a
-                href="https://www.frontendmentor.io?ref=challenge"
-                target="_blank"
-                >Frontend Mentor</a
-            >. Coded by
-            <a
-                href="https://www.frontendmentor.io/profile/Albrt78"
-                target="_blank"
-                >Albrt78</a
-            >.
-        </p>
+        <footer>
+            <p class="attribution">
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by
+                <a
+                    href="https://www.frontendmentor.io/profile/Albrt78"
+                    target="_blank"
+                    >Albrt78</a
+                >.
+            </p>
+        </footer>
 
         <script src="script.js"></script>
     </body>
