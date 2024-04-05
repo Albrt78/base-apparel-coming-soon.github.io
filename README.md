@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Base Apparel Coming Soon Page](https://github.com/Albrt78/base-apparel-coming-soon.github.io)
--   Live Site URL: [Base Apparel Coming Soon Page](https://your-live-site-url.com)
+-   Live Site URL: [Base Apparel Coming Soon Page](https://albrt78.github.io/base-apparel-coming-soon.github.io/)
 
 ### Built with
 
