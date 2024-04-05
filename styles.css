@@ -169,7 +169,7 @@ body .attribution a {
     flex-direction: column-reverse;
   }
   body .hero__wrapper .hero___section__left .hero__logo {
-    margin-top: 2rem;
+    margin-top: -40rem;
     padding-inline-start: 3rem;
   }
   body .hero__wrapper .hero___section__left .hero__title {
