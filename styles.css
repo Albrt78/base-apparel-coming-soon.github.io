@@ -103,6 +103,11 @@ body .attribution a {
   text-decoration: none;
   font-weight: 600;
 }
+@media (max-width: 1600.98px) {
+  body .hero__wrapper {
+    padding-top: 7rem;
+  }
+}
 @media (max-width: 1280.98px) {
   body .hero__wrapper {
     padding-top: 0;
