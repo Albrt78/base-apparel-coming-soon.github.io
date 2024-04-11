@@ -110,6 +110,9 @@ body .attribution a {
   body .hero__wrapper {
     align-items: center;
   }
+  body .attribution {
+    display: none;
+  }
 }
 @media (max-width: 1280.98px) {
   body .hero__wrapper {
