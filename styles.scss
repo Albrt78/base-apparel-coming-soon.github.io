@@ -126,8 +126,10 @@ body {
     }
 
     @media (min-width: 1440.98px) {
+        min-height: auto;
+
         .hero__wrapper {
-            padding-top: 7rem;
+            align-items: center;
         }
     }
 

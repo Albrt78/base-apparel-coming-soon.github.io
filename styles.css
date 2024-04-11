@@ -104,8 +104,11 @@ body .attribution a {
   font-weight: 600;
 }
 @media (min-width: 1440.98px) {
+  body {
+    min-height: auto;
+  }
   body .hero__wrapper {
-    padding-top: 7rem;
+    align-items: center;
   }
 }
 @media (max-width: 1280.98px) {
